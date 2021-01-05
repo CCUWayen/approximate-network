@@ -1,0 +1,11 @@
+9
+10000 1 28 28 
+Conv 6 1 2 5 1 0
+MaxPool 6 6 0 2 2 0
+ReLu 6 6 0 0 0 0
+Conv 16 6 0 5 1 0
+MaxPool 16 16 0 2 2 0
+ReLu 6 6 0 0 0 0
+fully_connect 120 400 0 0 0 1 
+fully_connect 84 120 0 0 0 1 
+fully_connect 10 84 0 0 0 0
